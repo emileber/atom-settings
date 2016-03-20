@@ -1,0 +1,68 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "7ee4a0c9-e5df-41f8-a396-79cde2983f59"
+    css_convert_quotes: "double"
+    css_newline_between_rules: true
+    js_brace_style: "collapse-preserve-inline"
+  "atom-terminal":
+    app: "C:\\Program Files (x86)\\cmder\\Cmder.exe"
+    args: "/SINGLE"
+  "autoclose-html": {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    strictMatching: true
+  core:
+    audioBeep: false
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter-js-standard"
+    ]
+    packagesWithKeymapsDisabled: [
+      "autoclose-html"
+    ]
+    projectHome: "C:\\git"
+  docblockr: {}
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+  emmet: {}
+  "exception-reporting":
+    userId: "f60ed41d-5627-e91d-3029-27c0a1c00b6f"
+  "file-icons":
+    onChanges: true
+  "foldername-tabs": {}
+  "highlight-selected": {}
+  linter:
+    showErrorPanel: false
+  "linter-htmlhint": {}
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-php": {}
+  "merge-conflicts":
+    gitPath: "C:\\Program Files (x86)\\cmder\\vendor\\git-for-windows\\mingw32\\bin\\git"
+  minimap:
+    absoluteMode: true
+    plugins:
+      "highlight-selected": true
+  "one-dark-ui":
+    layoutMode: "Compact"
+  pigments:
+    mergeColorDuplicates: true
+  "sass-compiler":
+    inputFilePath: "frontend/app/assets/css/main.scss"
+    outputFilePath: "frontend/app/assets/css/main.css"
+    outputStyle: "nested"
+    sourceMap: true
+  "smart-tab-name": {}
+  "status-bar": {}
+  tabs:
+    enableVcsColoring: true
+    usePreviewTabs: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".source.yaml":
+  editor:
+    tabLength: 2
