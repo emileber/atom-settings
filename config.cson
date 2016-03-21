@@ -46,6 +46,7 @@
     absoluteMode: true
     plugins:
       "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui":
     layoutMode: "Compact"
   pigments:

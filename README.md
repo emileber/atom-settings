@@ -4,7 +4,17 @@ Use this when installing Atom on a new machine.
 
 ## Install a new Atom instance
 
-1. Clone the repo inside the `.atom` directory.
+1. Delete the following files (all root files of the `.atom` dir):   
+    * .gitignore
+    * init.coffee
+    * keymap.cson
+    * snippets.cson
+    * styles.less
+1. Clone the repo inside an existing and non-empty directory:  
+       git init
+       git remote add origin REPO_URL
+       git fetch
+       git checkout -t origin/master
 1. Install the packages
         apm install --packages-file packages.txt
 
