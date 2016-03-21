@@ -23,6 +23,8 @@ Use this when installing Atom on a new machine.
     ```
     apm install --packages-file packages.txt
     ```
+
+
 ## Update the package list
 
 1. Install/update the new package as usual
