@@ -1,13 +1,17 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "7ee4a0c9-e5df-41f8-a396-79cde2983f59"
-    css_convert_quotes: "double"
-    css_newline_between_rules: true
-    js_brace_style: "collapse-preserve-inline"
+    css:
+      convert_quotes: "double"
+      newline_between_rules: true
+    general:
+      _analyticsUserId: "7ee4a0c9-e5df-41f8-a396-79cde2983f59"
+    js:
+      brace_style: "collapse-preserve-inline"
   "atom-terminal":
     app: "C:\\Program Files (x86)\\cmder\\Cmder.exe"
     args: "/SINGLE"
-  "autoclose-html": {}
+  "autoclose-html":
+    legacyMode: true
   "autocomplete-plus":
     confirmCompletion: "enter"
     strictMatching: true
@@ -15,7 +19,7 @@
     audioBeep: false
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-js-standard"
+      "sass-compiler"
     ]
     packagesWithKeymapsDisabled: [
       "autoclose-html"
@@ -34,6 +38,8 @@
     onChanges: true
   "foldername-tabs": {}
   "highlight-selected": {}
+  "line-ending-selector":
+    defaultLineEnding: "LF"
   linter:
     showErrorPanel: false
   "linter-htmlhint": {}
@@ -46,10 +52,19 @@
     absoluteMode: true
     plugins:
       "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui":
     layoutMode: "Compact"
   pigments:
     mergeColorDuplicates: true
+    supportedFiletypes: [
+      "**/*.styl"
+      "**/*.stylus"
+      "**/*.less"
+      "**/*.sass"
+      "**/*.scss"
+      "**/*.css"
+    ]
   "sass-compiler":
     inputFilePath: "frontend/app/assets/css/main.scss"
     outputFilePath: "frontend/app/assets/css/main.css"
@@ -60,6 +75,13 @@
   tabs:
     enableVcsColoring: true
     usePreviewTabs: true
+  "todo-show":
+    showInTable: [
+      "Type"
+      "Text"
+      "File"
+    ]
+    sortBy: "Type"
   "tree-view": {}
   welcome:
     showOnStartup: false
