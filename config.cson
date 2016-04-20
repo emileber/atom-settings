@@ -46,6 +46,7 @@
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "linter-php": {}
+  "markdown-preview": {}
   "merge-conflicts":
     gitPath: "C:\\Program Files (x86)\\cmder\\vendor\\git-for-windows\\mingw32\\bin\\git"
   minimap:
