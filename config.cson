@@ -7,6 +7,9 @@
       _analyticsUserId: "7ee4a0c9-e5df-41f8-a396-79cde2983f59"
     js:
       brace_style: "collapse-preserve-inline"
+    scss:
+      convert_quotes: "double"
+      newline_between_rules: true
   "atom-terminal":
     app: "C:\\Program Files (x86)\\cmder\\Cmder.exe"
     args: "/SINGLE"
@@ -57,6 +60,7 @@
   "one-dark-ui":
     layoutMode: "Compact"
   pigments:
+    markerType: "gutter"
     mergeColorDuplicates: true
     supportedFiletypes: [
       "**/*.styl"
@@ -72,6 +76,8 @@
     outputStyle: "nested"
     sourceMap: true
   "smart-tab-name": {}
+  "split-diff":
+    syncHorizontalScroll: true
   "status-bar": {}
   tabs:
     enableVcsColoring: true
