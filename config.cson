@@ -21,15 +21,14 @@
   core:
     audioBeep: false
     autoHideMenuBar: true
-    disabledPackages: [
-      "sass-compiler"
-    ]
     packagesWithKeymapsDisabled: [
       "autoclose-html"
+      "docblockr"
     ]
     projectHome: "C:\\git"
   docblockr: {}
   editor:
+    fontSize: 15
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -40,11 +39,11 @@
   "file-icons":
     onChanges: true
   "foldername-tabs": {}
+  "git-diff": {}
   "highlight-selected": {}
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-htmlhint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
@@ -55,6 +54,10 @@
   minimap:
     absoluteMode: true
     plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui":
@@ -77,6 +80,9 @@
     sourceMap: true
   "smart-tab-name": {}
   "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
     syncHorizontalScroll: true
   "status-bar": {}
   tabs:
@@ -92,6 +98,12 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
-".source.yaml":
+".gradle.groovy.source":
   editor:
-    tabLength: 2
+    tabLength: 4
+".html.php.text":
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: true
+    ignoreWhitespaceOnlyLines: true
+    removeTrailingWhitespace: false

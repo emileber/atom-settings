@@ -21,7 +21,7 @@ Use this when installing Atom on a new machine.
     ```
 1. Install the packages  
     ```
-    apm install --packages-file packages-list.txt
+    apm install --packages-file package-list.txt
     ```
 
 
