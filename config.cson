@@ -9,6 +9,7 @@
       brace_style: "collapse-preserve-inline"
     scss:
       convert_quotes: "double"
+      default_beautifier: "CSScomb"
       newline_between_rules: true
   "atom-terminal":
     app: "C:\\Program Files (x86)\\cmder\\Cmder.exe"
@@ -21,6 +22,9 @@
   core:
     audioBeep: false
     autoHideMenuBar: true
+    disabledPackages: [
+      "foldername-tabs"
+    ]
     packagesWithKeymapsDisabled: [
       "autoclose-html"
       "docblockr"
@@ -29,7 +33,7 @@
     telemetryConsent: "limited"
   docblockr: {}
   editor:
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -44,7 +48,9 @@
   "highlight-selected": {}
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter: {}
+  linter:
+    showErrorPanel: false
+  "linter-eslint": {}
   "linter-htmlhint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
@@ -53,7 +59,6 @@
   "merge-conflicts":
     gitPath: "C:\\Program Files (x86)\\cmder\\vendor\\git-for-windows\\mingw32\\bin\\git"
   minimap:
-    absoluteMode: true
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0
@@ -99,6 +104,15 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 4
+".diff":
+  editor:
+    tabLength: 4
+".diff.source":
+  editor:
+    tabLength: 4
 ".gradle.groovy.source":
   editor:
     tabLength: 4

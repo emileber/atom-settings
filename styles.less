@@ -10,27 +10,6 @@
  */
 
 
-/*
- * Examples
- * (To see them, uncomment and save)
- */
-
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
-}
-
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
-}
-
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
-  // border-color: red;
-}
-
 atom-notifications {
     top: 50px; // move notifications down a bit
 }
@@ -45,10 +24,10 @@ atom-notifications {
 // }
 
 // no pointer events on the minimap.
-atom-text-editor atom-text-editor-minimap,
-atom-text-editor::shadow atom-text-editor-minimap {
-  pointer-events: none;
-}
+// atom-text-editor atom-text-editor-minimap,
+// atom-text-editor::shadow atom-text-editor-minimap {
+//   pointer-events: none;
+// }
 // pointer event in the selected area of the minimap
 // atom-text-editor atom-text-editor-minimap::shadow .minimap-visible-area,
 // atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-visible-area {
@@ -56,14 +35,14 @@ atom-text-editor::shadow atom-text-editor-minimap {
 // }
 
 atom-text-editor {
-  &, &::shadow {
+  &, &.editor {
     atom-text-editor-minimap {
       display: none;
     }
   }
 
   &.is-focused {
-    &, &::shadow {
+    &, &.editor {
       atom-text-editor-minimap {
         display: block;
       }
