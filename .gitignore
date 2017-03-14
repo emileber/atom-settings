@@ -4,6 +4,7 @@ dev/
 storage/
 packages/
 split-diff/
+recovery/
 .node-gyp
 .npm
 .apm/
