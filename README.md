@@ -32,10 +32,10 @@ Use this when installing Atom on a new machine.
 
 1. Install/update the new package as usual
 
-1. Then update the `packages.txt` file:
+1. Then update the `package-list.txt` file:
 
     ```
     apm list --installed --bare > package-list.txt
     ```
 
-1. Add to git and commit, then push to upstream.
+1. Stage the file and commit, then push to upstream.

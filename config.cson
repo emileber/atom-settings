@@ -24,13 +24,17 @@
     autoHideMenuBar: true
     disabledPackages: [
       "foldername-tabs"
+      "jekyll"
+      "language-liquid"
     ]
     packagesWithKeymapsDisabled: [
       "autoclose-html"
       "docblockr"
+      "jekyll"
     ]
     projectHome: "C:\\git"
     telemetryConsent: "limited"
+    titleBar: "custom"
   docblockr: {}
   editor:
     fontSize: 13
@@ -49,13 +53,14 @@
     highlightInPanes: false
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-eslint": {}
   "linter-htmlhint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   "linter-php": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -67,8 +72,7 @@
       "find-and-replaceDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   pigments:
     markerType: "gutter"
     mergeColorDuplicates: true
